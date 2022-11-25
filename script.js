@@ -35,7 +35,7 @@ function newQuote() {
 
     if (!quote.author) {
 
-        authorText.textContent = 'Unknown';
+        authorText.textContent = '-Unknown';
     }
     else {
         authorText.textContent = quote.author;
